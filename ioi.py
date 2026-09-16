@@ -17,7 +17,7 @@ def parse_args():
     p.add_argument(
         "--model_dir",
         type=str,
-        default="/data/zodiark/CSAT/files/logs/2026-03-27-20-30-44-500133/checkpoints/checkpoint-20260327-203135-init",
+        default="",
     )
     p.add_argument("--save_name", type=str, default="ioi_graph_epoch_init2000.pt")
     return p.parse_args()
